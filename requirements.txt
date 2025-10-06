@@ -14,4 +14,5 @@ langchain_chroma
 streamlit 
 fastapi
 langchain_groq
+sse_starlette
 langserve

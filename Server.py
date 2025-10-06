@@ -11,7 +11,7 @@ from langserve import add_routes
 load_dotenv()
 
 ## Groq API Key
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = "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"
 
 
 ## LLM model
@@ -60,3 +60,4 @@ add_routes(
 if __name__=="__main__":
     import uvicorn
     uvicorn.run(app,host="127.0.0.1",port=8000)
+
